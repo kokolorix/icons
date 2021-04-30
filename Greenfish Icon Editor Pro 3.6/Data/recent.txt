@@ -1,14 +1,14 @@
 [File0]
-Name=
+Name=C:\Tools\icons\Folder_NextGen_Work.ico
 
 [File1]
-Name=
+Name=C:\Tools\icons\Folder_NextGen_Develop.ico
 
 [File2]
-Name=
+Name=C:\Tools\icons\G-Collection v1.0.ico
 
 [File3]
-Name=
+Name=C:\Tools\icons\Folder_Base.gfie
 
 [File4]
 Name=
