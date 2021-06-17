@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="285" height="52" viewBox="0 0 285 52">
+   <defs>
+      <style>.a,.e{fill:none;}.a{stroke:#dee1e5;stroke-width:4px;stroke-dasharray:4 4;}.b,.c{fill:#348e7a;}.b{font-size:16px;font-family:Inter;letter-spacing:0.018em;}.d{stroke:none;}</style>
+   </defs>
+   <g class="a">
+      <rect class="d" width="285" height="52"/>
+      <rect class="e" x="2" y="2" width="281" height="48"/>
+   </g>
+   <g transform="translate(-436 -1179)">
+      <text class="b" transform="translate(499 1195)">
+         <tspan x="0" y="16">Datei hinzufügen</tspan>
+      </text>
+      <g transform="translate(468 1194)">
+         <path class="c" d="M13,2,7.5,7.5h4.4v9.9h2.2V7.5h4.4ZM2,9.7V21.8A2.216,2.216,0,0,0,4.2,24H21.8A2.216,2.216,0,0,0,24,21.8V9.7H21.8V21.8H4.2V9.7Z" transform="translate(-2 -2)"/>
+      </g>
+   </g>
+</svg>
