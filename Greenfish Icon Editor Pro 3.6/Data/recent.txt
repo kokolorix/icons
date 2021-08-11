@@ -1,20 +1,20 @@
 [File0]
-Name=C:\Tools\icons\Folder_NextGen_Work.ico
+Name=D:\Projects\wEBcMD\folder.ico
 
 [File1]
-Name=C:\Tools\icons\Folder_NextGen_Develop.ico
+Name=C:\Tools\icons\Folder_Cmd.ico
 
 [File2]
-Name=C:\Tools\icons\G-Collection v1.0.ico
-
-[File3]
 Name=C:\Tools\icons\Folder_Base.gfie
 
+[File3]
+Name=C:\Tools\icons\Folder_NextGen_Work.ico
+
 [File4]
-Name=
+Name=C:\Tools\icons\Folder_NextGen_Develop.ico
 
 [File5]
-Name=
+Name=C:\Tools\icons\G-Collection v1.0.ico
 
 [File6]
 Name=
