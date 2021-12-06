@@ -1,26 +1,26 @@
 [File0]
-Name=C:\Tools\icons\Folder_NextGen_Work.ico
+Name=C:\Tools\icons\Folder_Demo.ico
 
 [File1]
-Name=C:\Tools\icons\Folder_NextGen_Develop.ico
+Name=D:\srebe\OneDrive\Bilder\Icons\v_collections\v_collections_ico\software_graphics_media\megaphone.ico
 
 [File2]
-Name=C:\Tools\icons\G-Collection v1.0.ico
+Name=D:\srebe\OneDrive\Bilder\Icons\v_collections\v_collections_ico\objects_people_industries\gauge.ico
 
 [File3]
-Name=C:\Tools\icons\Folder_Base.gfie
+Name=D:\srebe\OneDrive\Bilder\Icons\v_collections\v_collections_ico\business_finance_data\import2.ico
 
 [File4]
-Name=
+Name=C:\Tools\icons\Folder_Base.gfie
 
 [File5]
-Name=
+Name=C:\Tools\icons\Folder_NextGen_Work.ico
 
 [File6]
-Name=
+Name=C:\Tools\icons\Folder_NextGen_Develop.ico
 
 [File7]
-Name=
+Name=C:\Tools\icons\G-Collection v1.0.ico
 
 [File8]
 Name=
