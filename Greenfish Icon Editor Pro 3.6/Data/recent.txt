@@ -1,47 +1,47 @@
 [File0]
-Name=C:\Tools\icons\Folder_Demo.ico
+Name=C:\Tools\icons\Folder_NG_Prod.ico
 
 [File1]
-Name=D:\srebe\OneDrive\Bilder\Icons\v_collections\v_collections_ico\software_graphics_media\megaphone.ico
+Name=C:\Tools\icons\Folder_NG_Int.ico
 
 [File2]
-Name=D:\srebe\OneDrive\Bilder\Icons\v_collections\v_collections_ico\objects_people_industries\gauge.ico
-
-[File3]
-Name=D:\srebe\OneDrive\Bilder\Icons\v_collections\v_collections_ico\business_finance_data\import2.ico
-
-[File4]
 Name=C:\Tools\icons\Folder_Base.gfie
 
+[File3]
+Name=C:\Tools\icons\Kamatera.ico
+
+[File4]
+Name=C:\Tools\icons\Paperspace.ico
+
 [File5]
-Name=C:\Tools\icons\Folder_NextGen_Work.ico
+Name=C:\Tools\icons\Things.gfie
 
 [File6]
-Name=C:\Tools\icons\Folder_NextGen_Develop.ico
+Name=C:\Tools\icons\Ef-Solar.gfie
 
 [File7]
-Name=C:\Tools\icons\G-Collection v1.0.ico
+Name=C:\Tools\icons\Ef-Solar-local.ico
 
 [File8]
-Name=
+Name=C:\Tools\icons\Ef-Solar-int.ico
 
 [File9]
-Name=
+Name=C:\Tools\icons\Ef-Solar-test.ico
 
 [File10]
-Name=
+Name=C:\Tools\icons\Ef-Solar-prod.ico
 
 [File11]
-Name=
+Name=C:\Tools\icons\Folder_Base.gfie.LOCAL.gfie
 
 [File12]
-Name=
+Name=C:\Tools\icons\Folder_Demo.ico
 
 [File13]
-Name=
+Name=D:\srebe\OneDrive\Bilder\Icons\v_collections\v_collections_ico\software_graphics_media\megaphone.ico
 
 [File14]
-Name=
+Name=D:\srebe\OneDrive\Bilder\Icons\v_collections\v_collections_ico\objects_people_industries\gauge.ico
 
 [File15]
-Name=
+Name=D:\srebe\OneDrive\Bilder\Icons\v_collections\v_collections_ico\business_finance_data\import2.ico
