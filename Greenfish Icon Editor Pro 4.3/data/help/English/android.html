@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html><head>
+<meta charset="UTF-8">
+<link rel="stylesheet" type="text/css" href="style.css" />
+<title>Android drawables and buttons - Greenfish Icon Editor Pro Help</title>
+
+</head><body>
+<h1>Android drawables and buttons</h1>
+
+<h2>Introduction</h2>
+
+<p>Android icons are called <em>drawables</em>. They need to be drawn in multiple sizes for multiple screen resolutions (DPI).</p>
+
+<p>The standard screen resolutions defined by Android are:</p>
+
+<ul>
+	<li>ldpi (120dpi)</li>
+	<li>mdpi (160dpi)</li>
+	<li>hdpi (240dpi)</li>
+	<li>xhdpi (320dpi)</li>
+	<li>xxhdpi (480dpi)</li>
+	<li>xxxhdpi (640dpi)</li>
+</ul>
+
+<p>Android also supports <a href="https://developer.android.com/guide/topics/graphics/drawables#nine-patch" target="_blank">9-patch images</a> which have fixed and expandable parts so they can be scaled nicely to any size. These images are used as background for views such as buttons.</p>
+
+<h2>Creating an Android drawable</h2>
+
+<ol>
+	<li>Open a graphic document.</li>
+	<li>Should it have multiple <a href="basic.html#pages">pages</a> or <a href="basic.html#frames">frames</a>, select the page and frame you want to use.</li>
+	<li>Choose the menu item <em>Icon | Create Android drawable from image</em>.</li>
+	<li>Input the DPI for the source image.</li>
+	<li>Put a check into the boxes corresponding to the resolutions you want to create.</li>
+	<li>Click OK.</li>
+</ol>
+
+<p>The resulting document will have multiple pages. Each page will have a DPI value set to the corresponding standard Android screen DPI value. It is recommended to save this document somewhere as a <em>.gfie</em> document to preserve pages and DPI information.</p>
+
+<p>The final step is to export the pages to the resource folder of your Android project. Choose <em>File | Export Android drawable</em>. Here you have to provide the resource folder, i.e. the parent folder of the <tt>drawable-*</tt> directories.</p>
+
+<p>Each page will be exported to the corresponding subfolder (<tt>drawable-ldpi</tt>, <tt>drawable-mdpi</tt>, etc.). The exported files will be named <em>[title].png</em> where <em>[title]</em> is what you input to the <em>Android resource identifier</em> field.</p>
+
+<h2>Testing a 9-patch image</h2>
+
+<p>See <em>ninepatch.gfie</em> under the GFIE Samples directory for an example 9-patch image.</p>
+
+<p>Choose <em>Icon | Test (Ctrl+Shift+T)</em> and select the <em>9-patch</em> tab to view your 9-patch image scaled to various sizes.</p>
+
+<p><a href="index.html">&larr; Index</a></p>
+
+<script src="icon.js"></script>
+</body></html>
+

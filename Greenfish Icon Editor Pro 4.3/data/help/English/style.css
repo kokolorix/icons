@@ -1,0 +1,81 @@
+a:link, a:visited {
+	color: #24860f;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+a:hover {
+	color: #86240f;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+body {
+	background-color: #f8f8f8;
+	font-family: Tahoma, sans-serif;
+	font-size: 11pt;
+}
+
+em {
+	font-style: normal;
+	font-variant: small-caps;
+	font-weight: bold;
+}
+
+h1 {
+	color: #404040;
+	font-size: 20pt;
+	font-weight: normal;
+}
+
+h2 {
+	color: #505050;
+	font-size: 15pt;
+	font-weight: normal;
+}
+
+li {
+  margin-bottom: 2pt;
+  vertical-align: top;
+}
+
+table {
+  border: 0;
+}
+
+table.icns_format_table td {
+  min-width: 200px;
+}
+
+table.striped tr:nth-child(even) {
+  background-color: #d0d0d0;
+}
+
+.misc_icon {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-color: #F0F0F0;
+  background-image: url("../../images/misc.png");
+}
+
+.remark {
+	color: gray;
+	font-family: 'Times New Roman', serif;
+	font-style: italic;
+}
+
+.toolbar_icon {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  background-image: url("../../images/toolbar.png");
+}
+
+.toolset_icon {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-color: #F0F0F0;
+  background-image: url("../../images/toolset.png");
+}

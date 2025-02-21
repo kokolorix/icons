@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html><head>
+<meta charset="UTF-8">
+<link rel="stylesheet" type="text/css" href="style.css" />
+<title>Basic concepts - Greenfish Icon Editor Pro Help</title>
+
+</head><body>
+<h1>Basic concepts</h1>
+
+<h2>Documents, pages, frames and layers</h2>
+
+<p>With Greenfish Icon Editor Pro, you can edit</p>
+
+<ul>
+<li>icons (for <a href="win_icon.html">Windows</a> and <a href="mac_icon.html">Mac</a>), <a href="win_cursor.html">cursors</a>, <a href="animated_gif.html">animations</a>, photos or other images (together called <em>graphic documents</em>),</li>
+<li>as well as <a href="library.html">icon libraries</a>, executable programs and DLLs containing icon/cursor/bitmap resources (together called <em>library documents</em>).</li>
+</ul>
+
+<p>Graphic documents consist of one or more <em>pages</em>. Pages consist of <em>frames</em>. Each frame has zero or more <a href="layer.html">layers</a>.</p>
+
+<a name="pages"></a>
+<h3>Pages</h3>
+
+<p><em>Pages</em> can represent different things depending on document type.</p>
+
+<ul>
+<li>In icons and cursors, pages are also called <em>formats</em>.</li>
+<ul>
+<li>They have different <em>sizes</em> and <em>color depths</em>, allowing the operating system to select the best image for various screen resolutions and icon sizes.</li>
+<li>In many cases, icon pages are just resized versions of the same high-resolution picture or vector graphic.</li>
+<li>However, a high-resolution image downsampled to 32x32 or even 16x16 may lose detail. Therefore these smaller icon formats are frequently customized to look a bit different.</li>
+<li>More on that in <a href="win_icon.html">Windows icons</a> and <a href="win_cursor.html">Windows cursors</a>.</li>
+</ul>
+
+<li>In TIFF files, pages are true pages of a "real" document digitized from paper or intended for printing.</li>
+<li>Pages are displayed in a list box on the left of the editor, and can be hidden or shown with <em>F5 (View | List of pages)</em>.</li>
+</ul>
+
+<center>
+  <img src="images/pages.png" alt="List of pages"/>
+</center>
+
+<a name="frames"></a>
+<h3>Frames</h3>
+
+<p>Each page can have one or more <em>frames</em>.</p>
+
+<ul>
+<li>Non-animated pages have only one frame.</li>
+
+<li>Animated pages have multiple frames.</li>
+<ul>
+<li>Each frame of a given page must have the <em>same size</em>.</li>
+<li>Frames of the current page are displayed in a list box below the editor, and can be hidden or shown with <em>F6 (View | List of frames)</em>.</li>
+<li>Each frame has a <em>duration</em> that can be edited by double-clicking the frame thumbnail.</li>
+<li><a href="animated_gif.html">Animated GIFs</a> have one page with an arbitrary number of frames.</li>
+<li><a href="win_cursor.html">Windows animated cursors (.ANI)</a> have one or more pages, each with the same number of frames, describing the same animation in different sizes.</li>
+<li><a href="animated_gif.html">GIF</a> frames also have a <em>disposal method</em> that specifies what to do after the frame's duration has passed.</li>
+<li><a href="animated_gif.html">GIF</a> documents have a <em>loop count</em> property that specifies how many times the animation shall be played when being displayed on a website.</li>
+</ul>
+
+</ul>
+
+<center>
+  <img src="images/frames.png" alt="List of frames"/>
+</center>
+
+<a name="layers"></a>
+<h3>Layers</h3>
+
+<p>Each frame has zero or more <a href="layer.html">layers</a> that are stacked on top of each other to yield the image that will ultimately be displayed.</p>
+
+<p>Layers are only preserved in Greenfish Icon Editor Pro's native format (.GFIE). In other file formats, only the resulting image will be saved.</p>
+
+<center>
+  <img src="images/layers.png" alt="List of layers"/>
+</center>
+
+<p><a href="index.html">&larr; Index</a></p>
+</body></html>

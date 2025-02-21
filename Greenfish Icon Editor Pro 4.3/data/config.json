@@ -1,0 +1,264 @@
+{
+    "preferences": {
+        "animateNotifications": true,
+        "brushCursorEnabled": true,
+        "brushCursorMaxSizeRel": 0.8,
+        "brushCursorMinSizePt": 5.25,
+        "cellGridColor1": [
+            128,
+            0,
+            0
+        ],
+        "cellGridColor2": [
+            255,
+            0,
+            0
+        ],
+        "centerLinesColor1": [
+            128,
+            0,
+            0
+        ],
+        "centerLinesColor2": [
+            255,
+            0,
+            0
+        ],
+        "croppedPartAlpha": 0.5,
+        "customColors": [],
+        "editableSelectionOutlineColor1": [
+            0,
+            0,
+            0
+        ],
+        "editableSelectionOutlineColor2": [
+            255,
+            255,
+            255
+        ],
+        "editorAnimationInterval": 0.1,
+        "editorBackgroundColor": [
+            240,
+            240,
+            240
+        ],
+        "floatingSelectionOutlineColor1": [
+            0,
+            0,
+            255
+        ],
+        "floatingSelectionOutlineColor2": [
+            255,
+            255,
+            255
+        ],
+        "floatingSelectionResizeEdgeMaxDistancePt": 3.0,
+        "floatingSelectionResizeKnobColor": [
+            0,
+            0,
+            255
+        ],
+        "floatingSelectionResizeKnobRadiusPt": 1.5,
+        "floatingSelectionRotateKnobColor": [
+            255,
+            0,
+            0
+        ],
+        "floatingSelectionRotateKnobMaxDistancePt": 6.0,
+        "floatingSelectionRotateKnobRadiusPt": 2.25,
+        "gammaCorrect": "TRUE",
+        "gfglBackend": null,
+        "hatch": {
+            "blockSize": 16,
+            "colors": [
+                [
+                    255,
+                    255,
+                    255
+                ],
+                [
+                    192,
+                    192,
+                    192
+                ]
+            ]
+        },
+        "hatchAdjustToGrid": true,
+        "hatchDrawUnderLayerThumbnail": false,
+        "hotSpotFlasherColor1": [
+            0,
+            0,
+            0
+        ],
+        "hotSpotFlasherColor2": [
+            255,
+            0,
+            0
+        ],
+        "hotSpotFlasherFrameCount": 8,
+        "imageFrameFocusedColor": [
+            48,
+            48,
+            48
+        ],
+        "imageFrameUnfocusedColor": [
+            192,
+            192,
+            192
+        ],
+        "imageFrameSizePt": 15.0,
+        "keyboardShortcuts": {
+            "customShortcuts": []
+        },
+        "languagePack": "English",
+        "mouseWheelAction": "ZOOM",
+        "newSelectionMaskOutlineColor1": [
+            0,
+            128,
+            0
+        ],
+        "newSelectionMaskOutlineColor2": [
+            0,
+            255,
+            0
+        ],
+        "notificationAnimationStepPt": 30.0,
+        "notificationSound": true,
+        "pitchYawRotateSpeed": 0.002,
+        "pixelGridColor1": [
+            128,
+            128,
+            128
+        ],
+        "pixelGridColor2": [
+            192,
+            192,
+            192
+        ],
+        "pixelGridMinZoom": 6,
+        "recentFilesMaxSize": 16,
+        "requireDraggingToSelect": true,
+        "saveToolSettings": true,
+        "selectionOutlineSegmentSizePt": 3.0,
+        "shapeKnobInnerColor": [
+            255,
+            255,
+            255
+        ],
+        "shapeKnobInnerRadiusPt": 0.75,
+        "shapeKnobOuterColor": [
+            0,
+            0,
+            0
+        ],
+        "shapeKnobMaxDistancePt": 3.75,
+        "showStartupScreen": true,
+        "zoomMax": 30,
+        "zoomMin": -8,
+        "icoPNGLimit": 256,
+        "jpegDefaultQuality": 85,
+        "jpeg2000DefaultPSNR": 60.0,
+        "webpDefaultQuality": 85.0
+    },
+    "recentFiles": {
+        "filenames": [
+            "C:\\Tools\\icons\\Dev_Folders.gfie",
+            "C:\\Tools\\icons\\Pgm_64_Release.ico",
+            "C:\\Tools\\icons\\Pgm_64_Debug.ico",
+            "C:\\Tools\\icons\\Folder_64.ico",
+            "D:\\Dev\\EnvWin64\\Prod12\\Office\\Module\\Adresso2\\Adresso2.ico",
+            "C:\\Tools\\icons\\Window.gfie",
+            "C:\\Tools\\icons\\desktop-creativ.ico",
+            "C:\\Tools\\icons\\desktop-project.ico"
+        ]
+    },
+    "toolSettings": {
+        "activeTool": "TRANSFORM",
+        "foregroundColor": [
+            0,
+            0,
+            0,
+            255
+        ],
+        "backgroundColor": [
+            255,
+            255,
+            255,
+            255
+        ],
+        "brushAntialias": "TRUE",
+        "brushBlendMode": "NORMAL",
+        "brushShape": "ROUNDED",
+        "brushSize": 25,
+        "brushStipple": 65535,
+        "bucketSampleAllLayers": false,
+        "bucketStipple": 65535,
+        "contiguousFloodFill": true,
+        "ellipseAntialias": "TRUE",
+        "ellipseStipple": 65535,
+        "eraserAlpha": 255,
+        "eraserAntialias": "TRUE",
+        "eraserStipple": 65535,
+        "eyedropperSampleAllLayers": true,
+        "eyedropperSwitchBack": true,
+        "gradientAntialias": "TRUE",
+        "gradientBlendMode": "NORMAL",
+        "gradientDither": true,
+        "gradientIndex": 0,
+        "gradientRepetition": "NONE",
+        "gradients": [
+            {
+                "type": "RGBA",
+                "gradient": {
+                    "stops": [
+                        {
+                            "position": 0.0,
+                            "value": {
+                                "index": 0,
+                                "value": "FOREGROUND"
+                            },
+                            "prevMidpoint": 0.5
+                        },
+                        {
+                            "position": 1.0,
+                            "value": {
+                                "index": 0,
+                                "value": "BACKGROUND"
+                            },
+                            "prevMidpoint": 0.5
+                        }
+                    ]
+                }
+            }
+        ],
+        "gradientShape": "LINEAR",
+        "gradientStipple": 65535,
+        "lassoAntialias": "TRUE",
+        "lineAntialias": "TRUE",
+        "lineBlendMode": "NORMAL",
+        "lineShape": "ROUNDED",
+        "lineStipple": 65535,
+        "lineWidth": 1,
+        "pencilAntialias": "FALSE",
+        "pencilStipple": 65535,
+        "recolorAntialias": "TRUE",
+        "recolorStipple": 65535,
+        "rectStipple": 65535,
+        "retouchAntialias": "TRUE",
+        "retouchMode": "BLUR",
+        "retouchStipple": 65535,
+        "selectEllipseAntialias": "TRUE",
+        "selInterpolation": "AREA_LINEAR",
+        "selMoveMode": "PERSPECTIVE",
+        "shapeStyle": "STROKE_AND_FILL",
+        "sprayRate": 0.25,
+        "textAntialias": "TRUE",
+        "tolerance": 20,
+        "wandSampleAllLayers": false
+    },
+    "windowGeometry": {
+        "version": "Qt",
+        "main": "\u0001ÙÐË\u0000\u0003\u0000\u0000\u0000\u0000\u0001i\u0000\u0000\u0000L\u0000\u0000\bY\u0000\u0000\u0004ú\u0000\u0000\u0001j\u0000\u0000\u0000k\u0000\u0000\bX\u0000\u0000\u0004ù\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\n\u0000\u0000\u0000\u0001j\u0000\u0000\u0000k\u0000\u0000\bX\u0000\u0000\u0004ù"
+    },
+    "diskShaderCacheEnabled": true
+}
