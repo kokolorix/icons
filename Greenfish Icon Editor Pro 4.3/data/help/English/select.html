@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html><head>
+<meta charset="UTF-8">
+<link rel="stylesheet" type="text/css" href="style.css" />
+<title>Select, transform, copy and paste - Greenfish Icon Editor Pro Help</title>
+
+</head><body>
+<h1>Select, transform, copy and paste</h1>
+
+<h2>Selecting parts of the image</h2>
+
+<p>Use the <em><span data-tool-icon="SELECT_RECT"></span> Select rectangle (S)</em>, <em><span data-tool-icon="SELECT_ELLIPSE"></span> Select ellipse (A)</em>, <em><span data-tool-icon="LASSO"></span> Lasso (O)</em>, <em><span data-tool-icon="WAND"></span> Wand (W)</em> and <em><span data-tool-icon="PENCIL_SELECT"></span> Select with pencil (I)</em> <a href="tool.html">tools</a> to select a region of the image.</p>
+
+<ul>
+<li><em><span data-tool-icon="SELECT_ELLIPSE"></span> Select ellipse</em> and <em><span data-tool-icon="LASSO"></span> Lasso</em> support antialiasing, i.e. feathering the edges of the selection. This is turned on by default. You can turn it on/off using the <span data-toolset-icon="ANTIALIAS"></span> button below the toolbar.</li>
+<li>By pressing <em>Ctrl</em>, <em>Shift</em> or <em>Shift+Ctrl</em> when using these tools, you can <em>subtract</em> from the selected area, <em>add</em> to it, or <em>intersect</em> it with the newly selected region, respectively.</li>
+<li>After using the <em><span data-tool-icon="SELECT_RECT"></span> Select rectangle</em> and <em><span data-tool-icon="SELECT_ELLIPSE"></span> Select ellipse</em> tools, the selected region can be adjusted with the <em>handles</em>.</li>
+<center><img src="images/select_handles.png" alt="Selected ellipse with handles"/></center>
+<ul>
+<li>Switching to another tool or pressing <em>Esc</em> hides the handles.</li>
+<center><img src="images/select_no_handles.png" alt="Selected ellipse with no handles"/></center>
+<li>To transform (move/resize/rotate) the selection itself, switch to the <em><span data-tool-icon="TRANSFORM"></span> Transform (F)</em> tool.</li>
+<center>
+<img src="images/transform.png" alt="After switching to the Transform tool"/>
+<img src="images/transform_moved.png" alt="Moving the selection using the Transform tool"/>
+</center>
+</ul>
+</ul>
+
+<h2>Transforming the selection</h2>
+
+<p>After you are done with selecting a region of the image, switch to the <em><span data-tool-icon="TRANSFORM"></span> Transform (F)</em> tool to move, resize or rotate it. The outline of the selection will change from black-and-white (<em>editable selection</em>) to blue-and-white (<em>floating selection</em>), and only the bounding box will be shown.</p>
+
+<center>
+<img src="images/select_handles.png" alt="Selected ellipse with handles"/>
+<img src="images/transform.png" alt="After switching to the Transform tool"/>
+</center>
+
+<p>If the Transform tool is already active and the selection is still editable (i.e. its outline is black-and-white), switch to any other tool and back.</p>
+
+<p>After activating the <em><span data-tool-icon="TRANSFORM"></span> Transform (F)</em> tool, you can:</p>
+
+<ul>
+<li><em>Move</em> the selection.</li>
+<li><em>Resize</em> the selection with the blue handles or by dragging its edges.</li>
+<li><em>Rotate</em> the selection with the red handle.</li>
+<li><em>Rotate</em> the selection in 3D by pressing <em>Shift</em> and dragging anywhere in the image.</li>
+<li><em>Skew</em> the selection by pressing <em>Shift</em> and dragging an edge of the selection.</li>
+<li><em>Move one corner</em> of the selection by pressing <em>Shift</em> and dragging a blue handle in one of the corners.</li>
+</ul>
+
+<p>In short, you can do perspective transformation by pressing <em>Shift</em>.</p>
+
+<p>You can fine-tune the position and aspect of the floating selection with <em>Edit | Transform | Transform selection</em>. Here you can enter exact numeric values.</p>
+
+<p>You can merge the floating selection with the layer below by pressing <em>Esc</em> or <em>Ctrl+D</em>, or by choosing <em>Edit | Deselect All</em>.</p>
+
+<p>Note that the floating selection acts like a layer meaning that it shows up in the layer list as a separate entity. Here you can drag this "pseudo-layer" around to position the floating selection over a different layer.</p>
+
+<center><img src="images/floating_sel_layer.png" alt="Floating selection in layer list"/></center>
+
+<h2>Copy and paste</h2>
+
+<p>You can delete, cut, copy and paste the selection as you normally would, with the <em>Del</em>, <em>Ctrl+X</em>, <em>Ctrl+C</em> and <em>Ctrl+V</em> keys.</p>
+
+<p><em>Edit | Paste as New Page (Ctrl+Shift+V)</em> and <em>Edit | Paste as New Document (Ctrl+Shift+D)</em> are also useful.</p>
+
+<p><a href="index.html">&larr; Index</a></p>
+
+<script src="icon.js"></script>
+</body></html>

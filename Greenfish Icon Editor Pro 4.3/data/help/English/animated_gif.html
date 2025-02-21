@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html><head>
+<meta charset="UTF-8">
+<link rel="stylesheet" type="text/css" href="style.css" />
+<title>Animated GIFs - Greenfish Icon Editor Pro Help</title>
+
+</head><body>
+<h1>Animated GIFs</h1>
+
+<h2>Limitations</h2>
+
+<ul>
+<li>Each <a href="basic.html#frames">frame</a> of an animated GIF can only have at most 256 different colors, including the transparent color.</li>
+<li>These colors <em>cannot</em> be partially transparent. Their alpha must be either 0 or 255.</li>
+<li>The <em>duration</em> of each frame must be a multiple of 10 milliseconds.</li>
+</ul>
+
+<h2>Setting the duration of a frame</h2>
+
+<p>Use the menu item <em>Frames | Frame properties</em> or double-click the frame thumbnail in the frame list below the editor.</p>
+
+<p>The duration should be a multiple of 10 milliseconds.</p>
+
+<center><img src="images/gif_duration.png" alt="Setting GIF frame duration"/></center>
+
+<h2>Disposal method</h2>
+
+<p>In an animated GIF we can specify a <em>disposal method</em> for each frame, which determines what will happen when the frame's time slice is over. The available disposal methods are:</p>
+
+<ul>
+<li><em>Restore background</em> (default): the next frame will be rendered over a transparent background.</li>
+<li><em>Restore previous</em>: the current frame will be "undone" and the next frame will be drawn over whatever image was visible before the current frame was shown.</li>
+<li><em>Leave in place</em>: current frame is not disposed of, i.e. the next one will be drawn on top of it.</li>
+<li><em>Unspecified</em>: same meaning as "Leave in place", but not recommended as not all renderers may support it.</li>
+</ul>
+
+<p>You can set the disposal method in the <em>Frames | Frame properties</em> dialog.</p>
+
+<center><img src="images/disposal_method.png" alt="Setting GIF frame disposal method"/></center>
+
+<p>With <em>Frames | Convert GIF frames to keyframes</em> you can convert a GIF to an equivalent animation where each frame has the <em>Restore background</em> disposal method. This is useful if you want to extract the "effective" frames from a GIF.</p>
+
+<h2>Playing the animation</h2>
+
+<p>Use the test window: choose <em>Icon | Test (Ctrl+Shift+T)</em> or press <span data-misc-glyph="TEST"></span> on the toolbar above the image editor panel, just like when <a href="win_icon.html#test">testing an icon</a>.</p>
+
+<p><a href="index.html">&larr; Index</a></p>
+
+<script src="icon.js"></script>
+</body></html>
