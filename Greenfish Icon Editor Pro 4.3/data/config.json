@@ -25,7 +25,104 @@
             0
         ],
         "croppedPartAlpha": 0.5,
-        "customColors": [],
+        "customColors": [
+            [
+                0,
+                0,
+                0,
+                255
+            ],
+            [
+                0,
+                0,
+                0,
+                255
+            ],
+            [
+                0,
+                0,
+                0,
+                255
+            ],
+            [
+                0,
+                0,
+                0,
+                255
+            ],
+            [
+                0,
+                0,
+                0,
+                255
+            ],
+            [
+                0,
+                0,
+                0,
+                255
+            ],
+            [
+                0,
+                0,
+                0,
+                255
+            ],
+            [
+                0,
+                0,
+                0,
+                255
+            ],
+            [
+                0,
+                0,
+                0,
+                255
+            ],
+            [
+                0,
+                0,
+                0,
+                255
+            ],
+            [
+                0,
+                0,
+                0,
+                255
+            ],
+            [
+                0,
+                0,
+                0,
+                255
+            ],
+            [
+                0,
+                0,
+                0,
+                255
+            ],
+            [
+                0,
+                0,
+                0,
+                255
+            ],
+            [
+                0,
+                0,
+                0,
+                255
+            ],
+            [
+                0,
+                0,
+                0,
+                255
+            ]
+        ],
         "editableSelectionOutlineColor1": [
             0,
             0,
@@ -162,17 +259,18 @@
     },
     "recentFiles": {
         "filenames": [
-            "C:\\Tools\\icons\\desktop-creativ.ico",
+            "C:\\Tools\\icons\\desktop-virtual.ico",
             "C:\\Tools\\icons\\Window.gfie",
+            "C:\\Tools\\icons\\desktop-creativ.ico",
             "C:\\Tools\\icons\\desktop-project.ico"
         ]
     },
     "toolSettings": {
-        "activeTool": "TRANSFORM",
+        "activeTool": "BUCKET",
         "foregroundColor": [
             0,
-            0,
-            0,
+            255,
+            255,
             255
         ],
         "backgroundColor": [
