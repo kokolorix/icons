@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html><head>
+<meta charset="UTF-8">
+<link rel="stylesheet" type="text/css" href="style.css" />
+<title>Apple Macintosh icons - Greenfish Icon Editor Pro Help</title>
+
+</head><body>
+<h1>Apple Macintosh icons</h1>
+
+<h2>Introduction</h2>
+
+<p>Just like <a href="win_icon.html">Windows icons</a>, Mac OS X icons have several pages that depict the same content in different <em>sizes</em>, and perhaps in different <em>color depths</em>.</p>
+
+<p>The default extension for the Apple Icon Image Format is <em>ICNS</em>.</p>
+
+<a name="convert_to_icon"></a>
+<h2>Easy icon creation</h2>
+
+<ol>
+	<li>Open your existing image file.</li>
+	<li>Should it have multiple pages or frames, select the desired page and frame.</li>
+	<li>Choose the menu item <em>Icon | Create Mac icon from image</em> and check the boxes corresponding to the formats you want to create. Then click <em>OK</em>.</li>
+  <ul>
+    <li>If <em>Pad with transparency</em> is checked, non-square images will be first padded to square and then resized to the target size.</li>
+    <ul>
+      <li>If it is unchecked, the source image will be stretched to the target size which causes distortion for non-square images.</li>
+    </ul>
+    <li><em>Dither method</em> only matters if you select some non-32-bit formats. It defines how the original pixel colors are approximated with the reduced palette.</li>
+  </ul>
+  <center><img src="images/create_mac_icon.png" alt="Create Mac icon from image dialog"/></center>
+</ol>
+
+<a name="test"></a>
+<h2>Testing your icon</h2>
+
+<p>Follow the same procedure as for <a href="win_icon.html#test">Windows icons</a>.</p>
+
+<h2>Limitations</h2>
+
+<h3>Size and color depth</h3>
+
+<p>There is a predefined list of page sizes and color depths that are allowed in ICNS. Only these are supported:</p>
+
+<center>
+<table class="icns_format_table striped">
+<tr><th>Size</th><th>Color depth</th></tr>
+<tr><td>1024 x 1024</td><td>32-bit</td></tr>
+<tr><td>512 x 512 (retina)</td><td>32-bit</td></tr>
+<tr><td>512 x 512</td><td>32-bit</td></tr>
+<tr><td>256 x 256 (retina)</td><td>32-bit</td></tr>
+<tr><td>256 x 256</td><td>32-bit</td></tr>
+<tr><td>128 x 128</td><td>32-bit</td></tr>
+<tr><td>64 x 64 (retina)</td><td>32-bit</td></tr>
+<tr><td>64 x 64</td><td>32-bit</td></tr>
+<tr><td>48 x 48</td><td>32-bit</td></tr>
+<tr><td>48 x 48</td><td>256 colors</td></tr>
+<tr><td>48 x 48</td><td>16 colors</td></tr>
+<tr><td>48 x 48</td><td>Black and white</td></tr>
+<tr><td>32 x 32 (retina)</td><td>32-bit</td></tr>
+<tr><td>32 x 32</td><td>32-bit</td></tr>
+<tr><td>32 x 32</td><td>256 colors</td></tr>
+<tr><td>32 x 32</td><td>16 colors</td></tr>
+<tr><td>32 x 32</td><td>Black and white</td></tr>
+<tr><td>16 x 16</td><td>32-bit</td></tr>
+<tr><td>16 x 16</td><td>256 colors</td></tr>
+<tr><td>16 x 16</td><td>16 colors</td></tr>
+<tr><td>16 x 16</td><td>Black and white</td></tr>
+<tr><td>16 x 12</td><td>256 colors</td></tr>
+<tr><td>16 x 12</td><td>16 colors</td></tr>
+<tr><td>16 x 12</td><td>Black and white</td></tr>
+</table>
+</center>
+
+<h3>Palette</h3>
+
+<p>16-color and 256-color Mac icons must have a standard palette. If editing such an icon, you can load the appropriate palette into the color picker by first switching to the swatch screen with the <img src="images/toggle_color_panel.png" alt="Toggle color panel"/> button, then click <span data-misc-glyph="OPEN"></span> and load <em>Mac-16-colors.swa</em> or <em>Mac-256-colors.swa</em>. This is how the standard 16-color and 256-color ICNS palettes look:</p>
+
+<center>
+<img src="images/icns_palette_16.png" alt="ICNS 16-color palette"/>
+<img src="images/icns_palette_256.png" alt="ICNS 256-color palette"/>
+</center>
+
+<p>Note that the 16-color palatte is <em>not</em> a subset of the 256-color palette.</p>
+
+<a name="transparency_mask"></a>
+<h3>Transparency mask</h3>
+
+<p>This limitation only applies to black and white, 16-color and 256-color pages.</p>
+
+<p>The <em>ICNS</em> file format stores a common transparency mask for all paletted pages of the same given size. This means that, for example, the <em>48x48 1-bit</em> page must always have the same alpha channel as the <em>48x48 16-color</em> and <em>48x48 256-color</em> pages.</p>
+
+<h3>Phantom page</h3>
+
+<p>This is more or less related to the <a href="#transparency_mask">transparency mask</a> limitation.</p>
+
+<p>Suppose that you have saved an ICNS document that has a 16-color or 256-color page but does not have a black-and-white (1-bit) page of the same size. When reloading the file, you will notice that an extra 1-bit page has appeared having that specific size, with all non-transparent pixels being black.</p>
+
+<p>This is because the alpha channel of a 16- or 256-color ICNS page is stored in the same data stream as the corresponding 1-bit image, so the alpha mask cannot exist without a 1-bit page.</p>
+
+<h2>See also</h2>
+
+<p><a href="mac_library.html">Apple Macintosh "icon libraries"</a> (resource forks)</p>
+
+<p><a href="index.html">&larr; Index</a></p>
+
+<script src="icon.js"></script>
+</body></html>

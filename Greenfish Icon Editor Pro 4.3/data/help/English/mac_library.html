@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html><head>
+<meta charset="UTF-8">
+<link rel="stylesheet" type="text/css" href="style.css" />
+<title>Apple Macintosh "icon libraries" - Greenfish Icon Editor Pro Help</title>
+
+</head><body>
+<h1>Apple Macintosh "icon libraries"</h1>
+
+<h2>Introduction</h2>
+
+<p>The equivalent of Windows icon libraries on Mac systems is probably the so-called <em>resource fork</em> which is a container format for resources such as icons and cursors.</p>
+
+<ul>
+<li>Resource forks are an integral part of the Mac file system (HFS). When extracted and ported to a Windows or Linux system, they usually have <em>.RSRC</em> extension.
+<ul>
+  <li>On a Mac, each file can have a <em>data fork</em> and a <em>resource fork</em>, and possibly other kinds of "forks".</li>
+  <li>The <em>data fork</em> is the actual data of the file.</li>
+  <li>The <em>resource fork</em> is akin to a miniature file system, because it is a structured collection of icons, cursors and other <em>resources</em> pertaining to the file.</li>
+</ul>
+</li>
+<li>When copied to Windows/Linux, Mac files are sometimes converted to a compound format called AppleSingle or AppleDouble. This file (or two files in case of AppleDouble) is a bundle of the data fork, the resource fork and all other forks that may exist in connection with the original Mac file. It may have any extension, for example, <em>.AS</em> or <em>.ADF</em>.</li>
+<li>The resource fork is a somewhat obsolete concept.
+  <ul>
+    <li>It is still used by the system, but no API for developers is provided on modern Macs any more.</li>
+  </ul>
+</li>
+<li>As a consequence, Greenfish Icon Editor Pro supports loading but not saving Mac resource forks and AppleSingle/AppleDouble files.</li>
+<li>When loaded into Greenfish Icon Editor Pro, Mac resource collections are displayed exactly like Windows icon libraries.
+<ul>
+  <li><em>Technical detail:</em> The following types of resources are extracted by GFIE Pro (each type is identified by a four-character code, and each resource has a numeric ID and, optionally, a human-readable name):</li>
+  <ul>
+    <li><em>acur</em> - 16x16-pixel animated cursor</li>
+    <li><em>cicn</em> - Color icon. Can only have at most two pages, a color and a monochrome one.</li>
+    <li><em>crsr</em> - 16x16-pixel color cursor. Similarly to color icons, color cursors may only have up to 2 pages.</li>
+    <li><em>curs</em> - 16x16-pixel black and white cursor</li>
+    <li><em>icns</em> - Apple Icon Image Format. Sometimes the individual icon pages are stored in separate resource chunks, GFIE combines these into a single ICNS resource.</li>
+  </ul>
+</ul>
+</li>
+<li>After modifying them, you cannot save them in their original format, but you can save a copy in a Windows icon library format such as <em>.ICL</em> or <em>.RES</em>. You can also extract the individual resources as <em>.ICO</em> or <em>.CUR</em> files.</li>
+</ul>
+
+<p><a href="index.html">&larr; Index</a></p>
+
+<script src="icon.js"></script>
+</body></html>
