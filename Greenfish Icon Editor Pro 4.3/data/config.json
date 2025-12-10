@@ -259,6 +259,14 @@
     },
     "recentFiles": {
         "filenames": [
+            "C:\\Tools\\icons\\Dev_Folders.gfie",
+            "\\\\Simon2016.brunnerinfo.local\\Tools\\icons\\Dev_Folders.gfie",
+            "C:\\Tools\\icons\\Apps.gfie",
+            "C:\\Tools\\icons\\Folder_Preview.ico",
+            "C:\\Tools\\icons\\Folder_Feature.ico",
+            "C:\\Tools\\icons\\Pgm_Cpp13_Release.ico",
+            "C:\\Tools\\icons\\Pgm_Cpp13_Debug.ico",
+            "C:\\Tools\\icons\\C++Builder13-32.ico",
             "C:\\Tools\\icons\\desktop-virtual.ico",
             "C:\\Tools\\icons\\Window.gfie",
             "C:\\Tools\\icons\\desktop-creativ.ico",
@@ -266,11 +274,11 @@
         ]
     },
     "toolSettings": {
-        "activeTool": "BUCKET",
+        "activeTool": "TRANSFORM",
         "foregroundColor": [
             0,
-            255,
-            255,
+            0,
+            127,
             255
         ],
         "backgroundColor": [
@@ -351,7 +359,7 @@
     },
     "windowGeometry": {
         "version": "Qt",
-        "main": "\u0001Ÿ–À\u0000\u0003\u0000\u0000\u0000\u0000\u0000\u0013\u0000\u0000\u0000\u0015\u0000\u0000\tÏ\u0000\u0000\u0005d\u0000\u0000\u0000\u0014\u0000\u0000\u00004\u0000\u0000\tÎ\u0000\u0000\u0005c\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\n\u0000\u0000\u0000\u0000\u0014\u0000\u0000\u00004\u0000\u0000\tÎ\u0000\u0000\u0005c"
+        "main": "\u0001Ÿ–À\u0000\u0003\u0000\u0000\u0000\u0000\u0000X\u0000\u0000\u0000Å\u0000\u0000\bπ\u0000\u0000\u0005%\u0000\u0000\u0000Y\u0000\u0000\u0000†\u0000\u0000\b∏\u0000\u0000\u0005$\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\n\u0000\u0000\u0000\u0000Y\u0000\u0000\u0000†\u0000\u0000\b∏\u0000\u0000\u0005$"
     },
     "diskShaderCacheEnabled": true
 }
